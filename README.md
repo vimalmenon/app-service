@@ -4,6 +4,7 @@
 ### Pending Items
 - [ ] Connect to Dynamdo DB
 - [ ] Connect to S3 Bucket
-- [ ] Added Tox
-- [ ] Added PyTest
+- [ ] Add Tox
+- [ ] Add PyTest
+- [ ] Add FastApi
 - [ ] Set up Dockerfile
