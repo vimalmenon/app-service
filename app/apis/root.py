@@ -4,5 +4,4 @@ root_router = APIRouter()
 
 @root_router.get("/", tags=["root"])
 async def root():
-    return [{"username": "Rick"}, {"username": "Mortys"}]
-
+    return [{"username": "Rick"}, {"username": "Morty"}]

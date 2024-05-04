@@ -1,4 +1,4 @@
-from app.apis.root import root_router
+from app.apis import root_router
 from fastapi import FastAPI
 
 app = FastAPI()

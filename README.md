@@ -2,6 +2,7 @@
 
 
 ### Pending Items
+- [ ] Start project from pyproject
 - [ ] Connect to Dynamdo DB
 - [ ] Connect to S3 Bucket
 - [ ] Add Tox
