@@ -10,6 +10,7 @@
 - [ ] Set up CI / CD
 - [ ] Push image to DockerHub
 - [ ] (LESS) Start project from pyproject
+- [ ] show installing depdencies
 
 
 ### Useful command
