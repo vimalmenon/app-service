@@ -13,6 +13,7 @@ fastapi = "^0.111.0"
 [tool.poetry.group.dev.dependencies]
 pylint = "^3.1.0"
 black = "^24.4.2"
+taskipy = "^1.12.2"
 
 
 [tool.poetry.group.test.dependencies]
@@ -21,3 +22,12 @@ pytest = "^8.2.0"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.taskipy.variables]
+path = "**/*.py"
+
+[tool.taskipy.tasks]
+pylint = { cmd = "pylint {path}", use_vars = true }
+test = { cmd = "pytest {path}", use_vars = true }
+black = { cmd = "black {path}", use_vars = true }
+check_all = { cmd = "task pylint && task test && task black" }
