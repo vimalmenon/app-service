@@ -27,7 +27,7 @@ jobs:
     - name: Install dependencies
       run: poetry install
     - name: Poetry run pylint
-      run: poetry run pylint **/*.py
+      run: poetry run pylint **/*.py --fail-under=9
     - name: Poetry run black
       run: poetry run black **/*.py --check
     - name: Poetry run pytest

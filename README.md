@@ -31,9 +31,9 @@ Run Black
 ```sh
 poetry run black **/*.py
 ```
-Command to check all
+Run Pytest
 ```sh
-poetry run task check_all
+poetry run pytest -sv
 ```
 ### Useful links
 [Swagger](http://localhost:8000/docs)
