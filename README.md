@@ -3,6 +3,7 @@
 
 ### Pending Items
 - [ ] (Progress) Set up Dockerfile
+- [ ] add .dockerignore
 - [ ] Add Tox
 - [ ] Add Pylint
 - [ ] Add PyTest
