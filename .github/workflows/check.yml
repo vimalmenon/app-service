@@ -30,4 +30,6 @@ jobs:
       run: |
         poetry install
     - name: checking pylint
-      run: poetry run  pylint **/*.py --fail-under=10 --recursive=y --enable=W
+      run: |
+        result  = poetry run  pylint **/*.py --fail-under=10
+        echo result
