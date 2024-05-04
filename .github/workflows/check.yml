@@ -9,7 +9,7 @@
 name: Check Python
 
 on:
-  release:
+  push:
 
 jobs:
   deploy:
