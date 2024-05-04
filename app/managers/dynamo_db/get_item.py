@@ -13,6 +13,5 @@ class GetItem(BaseDB):
     def __init__(self, table):
         super().__init__(table)
 
-
     def execute(self):
         return self.table

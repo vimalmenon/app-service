@@ -19,8 +19,5 @@ class QueryItems(BaseDB):
         """
         print("passing")
 
-
-
-
     def execute(self):
         pass
