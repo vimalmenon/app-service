@@ -29,6 +29,9 @@ jobs:
     - name: Install poetry deps
       run: |
         poetry install
-    - name: checking pylint
-      run: |
-        poetry run pylint **/*py
+    - uses: Silleellie/pylint-github-action@v2
+      with:
+        lint-path: |
+          app
+          main.py
+        python-version: 3.11
