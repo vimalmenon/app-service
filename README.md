@@ -2,10 +2,8 @@
 
 
 ### Pending Items
-- [x] Set up CI for linting & Black
-- [x] Add PyTest
 - [ ] Add Tox
-- [ ] Connect to Dynamdo DB
+- [ ] Connect to Dynamo DB
 - [ ] Connect to S3 Bucket
 - [ ] Set up Authentication
 - [ ] Set up CD
