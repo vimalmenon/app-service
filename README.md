@@ -2,15 +2,14 @@
 
 
 ### Pending Items
+- [x] Set up CI for linting & Black
 - [ ] Add Tox
 - [ ] Add PyTest
 - [ ] Connect to Dynamdo DB
 - [ ] Connect to S3 Bucket
 - [ ] Set up Authentication
-- [ ] Set up CI / CD
+- [ ] Set up CD
 - [ ] Push image to DockerHub
-- [ ] (LESS) Start project from pyproject
-- [ ] show installing depdencies
 
 
 ### Useful command
