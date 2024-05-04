@@ -13,11 +13,5 @@ class DeleteItem(BaseDB):
     def __init__(self, table):
         super().__init__(table)
 
-    def passing(self):
-        """
-        This is just for passing
-        """
-        print("passing")
-
     def execute(self):
         return self.table
