@@ -1,6 +1,3 @@
-"""
-This is Root Service file
-"""
 
 
 class RootService:
