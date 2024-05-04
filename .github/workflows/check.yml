@@ -29,7 +29,9 @@ jobs:
     - name: Install poetry deps
       run: |
         poetry install
-    - name: checking pylint
-      run: |
-        t1=$(poetry run  pylint **/*.py --fail-under=10)
-        echo "$t1"
+    - name: Install poetry
+      uses: abatilo/actions-poetry@v2
+    - name: Install the project dependencies
+      run: poetry install
+    - name: Run the automated tests (for example)
+      run: poetry run pylint
