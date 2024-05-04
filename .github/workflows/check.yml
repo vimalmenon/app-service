@@ -29,3 +29,6 @@ jobs:
     - name: Install poetry deps
       run: |
         poetry install
+    - name: checking pylint
+      run: |
+        poetry run pylint **/*py
