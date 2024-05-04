@@ -28,4 +28,4 @@ def test_delete_item(mock_response):
     """
     This is delete item
     """
-    print(DeleteItem(table=mock_response).execute())
+    assert DeleteItem(table=mock_response).execute() == mock_response

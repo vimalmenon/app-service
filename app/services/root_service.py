@@ -2,6 +2,8 @@
 This is Root Service file
 """
 
+from app.managers.dynamo_db.get_item import GetItem
+
 
 class RootService:
     """
@@ -12,6 +14,7 @@ class RootService:
         """
         This is Root URL
         """
+        print(GetItem().execute())
         return [{"username": "Rick"}, {"username": "Morty"}]
 
     def passing(self):

@@ -14,4 +14,9 @@ class DeleteItem(BaseDB):
         super().__init__(table)
 
     def execute(self):
-        return self.table
+        return self.table.get_item(
+            Key={
+                "appKey": "APP#KM#FOLDER",
+                "sortKey": "note#fedb931d-5937-4508-a50d-47d68b106414",
+            }
+        )
