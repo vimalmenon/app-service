@@ -1,10 +1,11 @@
-
+"""
+This is Root Service file
+"""
 
 class RootService:
     """
     This is Root Service class
     """
-
     def data(self):
         """
         This is Root URL
@@ -16,6 +17,3 @@ class RootService:
         This is just for passing
         """
         print("passing")
-
-
-
