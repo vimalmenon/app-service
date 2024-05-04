@@ -28,3 +28,5 @@ jobs:
       run: poetry install
     - name: Poetry run pylint
       run: poetry run pylint **/*.py
+    - name: Poetry run black
+      run: poetry run pylint black **/*.py --check
