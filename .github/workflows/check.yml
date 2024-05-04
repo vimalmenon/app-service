@@ -32,4 +32,4 @@ jobs:
     - name: checking pylint
       run: |
         result  = poetry run  pylint **/*.py --fail-under=10
-        echo result
+        echo $result
