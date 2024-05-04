@@ -31,5 +31,5 @@ jobs:
         poetry install
     - name: checking pylint
       run: |
-        t1 = $(poetry run  pylint **/*.py --fail-under=10)
+        t1=$(poetry run  pylint **/*.py --fail-under=10)
         echo "$t1"
