@@ -1,7 +1,8 @@
 from fastapi import APIRouter
+from app.services import RootService
 
 root_router = APIRouter()
 
 @root_router.get("/", tags=["root"])
 async def root():
-    return [{"username": "Rick"}, {"username": "Morty"}]
+    return RootService().data()

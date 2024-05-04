@@ -2,14 +2,15 @@
 
 
 ### Pending Items
-- [ ] Start project from pyproject
-- [ ] Connect to Dynamdo DB
-- [ ] Connect to S3 Bucket
+- [ ] (Progress) Set up Dockerfile
 - [ ] Add Tox
 - [ ] Add Pylint
 - [ ] Add PyTest
-- [ ] Set up Dockerfile
+- [ ] Connect to Dynamdo DB
+- [ ] Connect to S3 Bucket
 - [ ] Set up Authentication
+- [ ] Set up CI / CD
+- [ ] (LESS) Start project from pyproject
 
 
 ### Useful command
