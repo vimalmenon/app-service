@@ -15,10 +15,14 @@ class GetItem(BaseDB):
         super().__init__()
 
     def execute(self):
-        return self.table.query(
+        return self.table.get_item(
             TableName="Application",
-            ExpressionAttributeValues={
-                ":appKey": "APP#KM#NOTE",
+            Key={
+                "appKey": "APP#KM#FOLDERS_FILE",
+                "sortKey": "03461138-2607-41ef-ae10-2cceb0ee2543#396d8acb-2bc0-4e72-a17c-79746902720c.JPG",
             },
-            KeyConditionExpression="appKey = :appKey",
+            # ExpressionAttributeValues={
+            #     ":appKey": "APP#KM#NOTE",
+            # },
+            # KeyConditionExpression="appKey = :appKey",
         )

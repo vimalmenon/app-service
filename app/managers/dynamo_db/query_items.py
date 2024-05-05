@@ -14,4 +14,10 @@ class QueryItems(BaseDB):
         super().__init__(table)
 
     def execute(self):
-        return self.table
+        return self.table.query(
+            TableName="Application",
+            ExpressionAttributeValues={
+                ":appKey": "APP#KM#NOTE",
+            },
+            KeyConditionExpression="appKey = :appKey",
+        )
