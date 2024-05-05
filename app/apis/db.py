@@ -3,7 +3,7 @@ This is api root file
 """
 
 from fastapi import APIRouter
-from app.managers.dynamo_db import ScanItem, QueryItems, GetItem
+from app.managers.dynamo_db import ScanItem, QueryItems, GetItem, PutItem
 
 db_router = APIRouter()
 
@@ -30,3 +30,11 @@ async def get_item():
     This is Root URL
     """
     return QueryItems().execute()
+
+
+@db_router.get("/put_item", tags=["db"])
+async def put_item():
+    """
+    This is Root URL
+    """
+    return PutItem().execute()

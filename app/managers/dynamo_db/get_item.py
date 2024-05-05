@@ -1,5 +1,6 @@
 """
 This is file for get item
+https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/dynamodb/client/get_item.html#
 """
 
 from app.managers.dynamo_db.base_db import BaseDB
