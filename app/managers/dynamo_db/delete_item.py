@@ -10,13 +10,14 @@ class DeleteItem(BaseDB):
     This is delete item
     """
 
-    def __init__(self, table):
-        super().__init__(table)
+    def __init__(self):
+        super().__init__()
 
     def execute(self):
-        return self.table.get_item(
+        return self.table.delete_item(
+            TableName="Application",
             Key={
-                "appKey": "APP#KM#FOLDER",
-                "sortKey": "note#fedb931d-5937-4508-a50d-47d68b106414",
-            }
+                "appKey": "Pri Key",
+                "sortKey": "Sec Key",
+            },
         )
