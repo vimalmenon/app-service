@@ -1,0 +1,2 @@
+class UploadData:
+    pass

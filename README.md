@@ -2,8 +2,8 @@
 
 
 ### Pending Items
+- [x] Connect to Dynamo DB
 - [ ] Add Tox
-- [ ] Connect to Dynamo DB
 - [ ] Connect to S3 Bucket
 - [ ] Set up Authentication
 - [ ] Set up CD
