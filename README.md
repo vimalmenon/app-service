@@ -40,3 +40,4 @@ poetry run pytest -sv
 [Swagger](http://localhost:8000/docs)
 [DB](https://github.com/awsdocs/aws-doc-sdk-examples/blob/main/python/example_code/dynamodb/GettingStarted/update_and_query.py)
 [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/dynamodb/client/put_item.html#)
+[AWS](https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_PutItem.html)
